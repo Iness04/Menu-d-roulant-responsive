@@ -22,7 +22,10 @@ nav > ul >li
 {
 	display: none;
 }
-
+nav input [type=checkbox]
+{
+	display: none;
+}
 .menu-mobile
 {
 	display: none;
