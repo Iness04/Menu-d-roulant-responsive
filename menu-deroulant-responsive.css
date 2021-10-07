@@ -13,7 +13,7 @@ nav li
 {
 	list-style-type: none;
 }
-nav > ul >li 
+nav > ul > li 
 {
 	float: left;
 	position: relative;
@@ -22,7 +22,7 @@ nav > ul >li
 {
 	display: none;
 }
-nav input [type=checkbox]
+nav input
 {
 	display: none;
 }
@@ -128,7 +128,7 @@ nav > ul > li:hover a
 {
 	background-color: rgb(200, 165, 75);
 }
-nav input [type=checkbox]:checked ~ ul 
+nav input:checked ~ ul 
 {
 	display: block;
 }
